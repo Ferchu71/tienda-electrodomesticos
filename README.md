@@ -16,3 +16,28 @@ Sistema de gestión de productos para una tienda de electrodomésticos desarroll
 
 ## 🧱 Estructura del proyecto
 
+tienda-electrodomesticos/
+│
+├── main.py # Menú principal de interacción
+├── producto.py # Clase Producto
+├── inventario.py # Lógica de negocio
+├── db_manager.py # Acceso a base de datos SQLite
+├── productos.db # Base de datos (se genera automáticamente)
+├── README.md
+├── .gitignore
+└── LICENSE
+
+---
+
+## ▶️ Requisitos
+
+- Python 3.x
+
+Instalación recomendada:
+
+```bash
+git clone https://github.com/Ferchu71/tienda-electrodomesticos.git
+cd tienda-electrodomesticos
+python main.py
+
+
