@@ -1,6 +1,3 @@
-# tienda-electrodomesticos
-Description: Sistema de gestión de productos para tienda de electrodomésticos con Python y POO
-
 # Tienda de Electrodomésticos
 
 Sistema de gestión de productos para una tienda de electrodomésticos desarrollado en Python, utilizando Programación Orientada a Objetos (POO) y SQLite como base de datos.
