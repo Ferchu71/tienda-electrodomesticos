@@ -1,0 +1,19 @@
+import pyodbc
+
+# Conexión con autenticación de Windows
+conn = pyodbc.connect(
+    "DRIVER={ODBC Driver 17 for SQL Server};"
+    "SERVER=PC_Estudio\\SQLEXPRESS;"
+    "DATABASE=TiendaElectrodomesticos;"
+    "Trusted_Connection=yes;"
+)
+
+cursor = conn.cursor()
+
+# Ejemplo: listar productos
+cursor.execute("SELECT * FROM Productos")
+for row in cursor.fetchall():
+    print(row)
+
+conn.close()
+
