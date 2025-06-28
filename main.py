@@ -19,10 +19,10 @@ def main():
             inv.mostrar_productos()
         elif op == "4":
             inv.cerrar()
-            print("👋 ¡Hasta luego!")
+            print("¡Hasta luego!")
             break
         else:
-            print("⚠️ Opción inválida.")
+            print("Opción inválida.")
 
 if __name__ == "__main__":
     main()
