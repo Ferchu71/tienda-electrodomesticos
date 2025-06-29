@@ -1,4 +1,4 @@
-ffrom inventario import Inventario
+from inventario import Inventario
 
 def main():
     sistema = Inventario()
